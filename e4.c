@@ -1,3 +1,5 @@
+//algorithm that eliminate repeated integer values in an orderer array
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -16,7 +18,7 @@ int main()
             new_array[i]=array[i];
         }
         
-        printf("Nuevo arreglo celda[%d] = [%d]\n", i, new_array[i]);
+        printf("New array[%d] = [%d]\n", i, new_array[i]);
     }
     return 0;
 }
