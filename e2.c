@@ -10,8 +10,7 @@ int main()
     printf("ingrese los promedios en orden:\n");
     for(int i = 0; i<10 ; i++)
     {
-        scanf("%d",calificaciones[i]);
+        scanf("%d",&calificaciones[i]);   
     }
-    
     return 0;
 }
